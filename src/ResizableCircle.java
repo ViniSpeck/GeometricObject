@@ -1,4 +1,4 @@
-public class ResizableCircle extends Circle {
+public class ResizableCircle extends Circle implements Resizable{
     public ResizableCircle(double radius) {
         super(radius);
     }
